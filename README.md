@@ -17,15 +17,13 @@
     - Salsa: https://salsa.debian.org/jmkim-guest
     - Debian Wiki: https://wiki.debian.org/JongminKim
 
-
 1. What project do you want to work on? This can be a project that you came up with yourself, a project that you collaborated with a project maintainer or possible GSoC mentor with, or a project that you chose from [the ideas list](https://github.com/rubygsoc/rubygsoc/wiki/Ideas-List).
     - [Rails6 Package Transition in Debian](https://github.com/rubygsoc/rubygsoc/wiki/Rails6-Package-Transition-in-Debian)
 
-
 1. Why do you like Ruby, and why do you want to work on a Ruby project in GSoC 2019?
-
-
-
+    - Ruby, especially Rails (Ruby on Rails), is a popular language and frameworks for many people around my web projects. I saw a lot of startups developing web services using Rails or Sinatra. I did not deal with Ruby a lot, but I see a lot of people around me and feel the need for learning the Ruby.
+    - My main Linux distribution, Debian, has a huge team, Ruby packaging team. I am one of the active contributors in Debian, and I would like to expand my scope of activity by doing Ruby packaging.
+    - Rails 6 will be released in RailsConf on April 30th. After the release, Debian Developers will begin importing Rails 6 into Debian. This project should resolve many of the conflicts that have arisen since Rails was brought to Debian, and contribute directly to the Ruby projects on the Internet as well as Debian. I think this is a valuable opportunity to gain a large-scale Ruby projects contribution experience, not an intensive one Ruby project. At the same time, it will give me an in-depth experience of Ruby and Rails.
 
 1. Describe your **experience** with the following: Ruby, C, other languages. (No experience is okay! We use this to evaluate projects and mentors for a good fit.)
     - Ruby
@@ -34,6 +32,7 @@
             - A simple script for download package from Debian Salsa and measure Rails reverse-dependencies: https://gist.github.com/jmkim/d5e3f1b9986d51fdbf9531d1b95909c5
     - C++
         - Universal Stock Crawler: https://github.com/jmkim/stock-crawler
+        - I have experiences with C++ template programming, and tried to write some libraries which replaces C++ STL.
     - Shell scripts
         - Google Domains DDNS Updater: https://github.com/jmkim/google-domains-ddns-updater
         - PDF to JPG converter: https://github.com/jmkim/pdf2jpg-bash
@@ -45,14 +44,14 @@
         - [JavaScript, PHP] State public officials relationship graph in Busan, South Korea: http://fun.busan.com/2019busan_public.php
         - [Java] Search engine for getting the educational background statistics in Busan, South Korea: http://db.pknu.ac.kr/dc/prj/bsn201701/
         - [Java] Map for showing the educational background statistics in Busan, South Korea: http://db.pknu.ac.kr/dc/prj/bsn201702/
-    - I'm learning Ruby and have confidence in learning Ruby, as a lot of languages I already learnt (C, C++, Java, PHP, JavaScript, Go, Shell, Python).
+    - I'm currently learning Ruby and have confidence in learning Ruby, as a lot of languages I already learnt (C, C++, Java, PHP, JavaScript, Go, Shell, Python).
       I have plans to use Rails for my future projects, so I want to become an expert in Ruby through this project.
 
 1. Describe your **educational background**, including school, degree plan, major, and (if any) past degrees, research area, publications, etc.
     - (2015-current) Bachelor's degree, IT Convergence and Application Engineering, Pukyong National University.
 
 1. Have you sent pull requests to any Ruby open source projects? Code or documentation patches are both useful! Please provide links.
-    - During Debian activities, I did patch Ruby package "sup-mail".
+    - During Debian Ruby team activities, I did a little patch for Ruby package "sup" (sup-mail in Debian).
         - Overview: https://salsa.debian.org/ruby-team/sup-mail/commits/master
         - Package transitions:
             - https://salsa.debian.org/ruby-team/sup-mail/commit/fd0c7421e8019bafec5a57dc0d3decfa85b57150
@@ -61,14 +60,13 @@
         - Upstream PR:
             - [OPENED] https://github.com/sup-heliotrope/sup/pull/549
 
-1. What **other commitments** do you have this summer aside from GSoC? What obstacles do you foresee this summer as far as contributing the full forty hours per week during the GSoC period? 
-    - No other commitments, except the plan for participating DebCamp19 and DebConf19 (below).
-
-1. Are you planning any vacations or trips for fun this summer?
+1. What **other commitments** do you have this summer aside from GSoC? What obstacles do you foresee this summer as far as contributing the full forty hours per week during the GSoC period? Are you planning any vacations or trips for fun this summer?
     - From 12 July to 27 July, I have a plan for participating DebCamp19 and DebConf19 (Debian conference). In this period, I'll do packaging sprint in Hacklab, in DebConf venue.
+    - No other commitments for GSoC period. I'd definitely be able to give 40 hours per week, during the GSoC period.
 
 1. How many classes are you taking this summer?
     - One class (Digital signal processing).
+    - The semester will be ends on 24 June, but as only one class which can be take less than 3 hours everyday for studying, I won't compromise on the 40-hour schedule.
 
 1. Do you have any other employment this summer?
     - No.
