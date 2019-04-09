@@ -84,8 +84,8 @@
 
 ### Project details
 1. Update the Rails to 6.0.0 in Debian.
-    1. Update the Rails dependencies in Debian [Appendix I].
-1. Patch the Rails applications and libraries to make compatible with Rails 6.0.0 [Appendix II].
+    1. Update the Rails dependencies in Debian [Appendix I](#appendix-i-measured-rails-dependencies-in-debian).
+1. Patch the Rails applications and libraries to make compatible with Rails 6.0.0 [Appendix II](#appendix-ii-measured-rails-reverse-dependencies-in-debian).
 1. Upload Rails 6, its dependencies, Rails applications and libraries.
 
 ### Glossary
@@ -119,11 +119,11 @@ This proposal proposes to upgrade Rails to 6.0.0 and change all Debian packages 
 ![Rails 6 package transition workflow diagram](img/figure-01.png)
 
 #### Measured values
-1. In Debian, 169 packages dependent on Rails. [Appendix II]
+1. In Debian, 169 packages dependent on Rails [Appendix II](#appendix-ii-measured-rails-reverse-dependencies-in-debian).
     1. 11 applications dependent on Rails:
         - camping, coquelicot, debci, diaspora, gitaly, gitlab, open-build-service, passenger, redmine, schleuder, sonic-pi
     1. 158 packages are the libraries which dependent on Rails frameworks.
-1. In Debian, the count of reverse-dependencies of each Rails packages [Appendix II] are:
+1. In Debian, the count of reverse-dependencies of each Rails packages [Appendix II](#appendix-ii-measured-rails-reverse-dependencies-in-debian) are:
     - ruby-actioncable: none
     - ruby-actionmailbox: none (new module introduced from 6.0.0)
     - ruby-actionmailer: 8
@@ -138,7 +138,7 @@ This proposal proposes to upgrade Rails to 6.0.0 and change all Debian packages 
     - ruby-railties: 40
     - ruby-rails: 32
     - rails: 15
-1. In Rails, the count of breaking changes, the version between 5 and 6 [Appendix III] are:
+1. In Rails, the count of breaking changes, the version between 5 and 6 [Appendix III](#appendix-iii-breaking-changes-on-rails-6) are:
     - actioncable: 3
     - actionmailbox: none (new module introduced from 6.0.0)
     - actionmailer: 1
@@ -151,7 +151,7 @@ This proposal proposes to upgrade Rails to 6.0.0 and change all Debian packages 
     - activestorage: 3
     - activesupport: 12
     - railties: 21
-1. As almost Rails interfaces as it is, it might be not at all packages need changes. If a patch is needed, make a transition with following [Appendix III].
+1. As almost Rails interfaces as it is, it might be not at all packages need changes. If a patch is needed, make a transition with following [Appendix III](#appendix-iii-breaking-changes-on-rails-6).
 
 ### Timeline (based on measured values)
 1. 7th May ~ 11th May: Update Rails dependencies to compatible with Rails 6.0.0.
