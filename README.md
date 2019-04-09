@@ -374,6 +374,7 @@ This proposal proposes to upgrade Rails to 6.0.0 and change all Debian packages 
 
 ### References
 [1] https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/
+[2] https://github.com/rails/rails
 
 <hr>
 
