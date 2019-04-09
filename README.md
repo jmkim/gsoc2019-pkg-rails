@@ -380,6 +380,10 @@ This proposal proposes to upgrade Rails to 6.0.0 and change all Debian packages 
 
 ## Appendices
 
+1. [Appendix I: Measured Rails dependencies in Debian](#appendix-i-measured-rails-dependencies-in-debian)
+1. [Appendix II: Measured Rails reverse-dependencies in Debian](#appendix-ii-measured-rails-reverse-dependencies-in-debian)
+1. [Appendix III: Breaking changes on Rails 6](#appendix-iii-breaking-changes-on-rails-6)
+
 ### Appendix I: Measured Rails dependencies in Debian
 - New package needed:
     - activerecord-jdbc-adapter (52.1-java)
