@@ -1,0 +1,419 @@
+# Appendix II: Measured Rails reverse-dependencies in Debian
+- https://salsa.debian.org/ruby-team/camping
+    - [Recommends] ruby-activerecord
+- https://salsa.debian.org/debian/coquelicot
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ci-team/debci
+    - [Build-Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/diaspora
+    - [Depends] ruby-rails
+- https://salsa.debian.org/go-team/packages/gitaly
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/gitlab
+    - [Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/open-build-service
+    - [Build-Depends] rails
+    - [Build-Depends] ruby-actionview
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/passenger
+    - [Suggests] rails
+- https://salsa.debian.org/ruby-team/redmine
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-actionpack-action-caching
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-actionpack-page-caching
+    - [Build-Depends, Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-actionpack-xml-parser
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-activeldap
+    - [Build-Depends, Depends] ruby-activemodel
+    - [Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-active-model-serializers
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-activemodel
+    - [Build-Depends] ruby-activerecord
+    - [Build-Depends] ruby-rails
+    - [Build-Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-activemodel-serializers-xml
+    - [Build-Depends] ruby-activerecord
+    - [Build-Depends, Depends] ruby-activemodel
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-activerecord-import
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-activerecord-nulldb-adapter
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-acts-as-api
+    - [Depends] ruby-activemodel
+    - [Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-acts-as-list
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-acts-as-taggable-on
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-acts-as-tree
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-after-commit-queue
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-api-pagination
+    - [Build-Depends] rails
+- https://salsa.debian.org/ruby-team/ruby-appraiser
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-asset-sync
+    - [Build-Depends, Depends] ruby-activemodel
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-attr-encrypted
+    - [Build-Depends] ruby-activerecord
+    - [Build-Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-awesome-print
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-babosa
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-backbone-on-rails
+    - [Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-backports
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-blade
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-browser
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-carrierwave
+    - [Build-Depends] rails
+    - [Build-Depends, Depends] ruby-activemodel
+    - [Build-Depends] ruby-activerecord
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-case-transform
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-climate-control
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-clockwork
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-cocaine
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-codemirror-rails
+    - [Depends] ruby-rails
+    - [Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-coffee-rails
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-combustion
+    - [Build-Depends] rails
+    - [Depends] ruby-activesupport
+    - [Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-dalli
+    - [Build-Depends] rails
+- https://salsa.debian.org/ruby-team/ruby-database-cleaner
+    - [Build-Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-data-migrate
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-default-value-for
+    - [Build-Depends, Depends] ruby-activerecord
+    - [Build-Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-delayed-job
+    - [Build-Depends] ruby-actionmailer
+    - [Build-Depends, Depends] ruby-activerecord
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-delayed-job-active-record
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-delorean
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-devise
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-devise-lastseenable
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-devise-two-factor
+    - [Build-Depends] ruby-activemodel
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-diaspora-federation-rails
+    - [Build-Depends, Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-doorkeeper
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-email-validator
+    - [Build-Depends, Depends] ruby-activemodel
+- https://salsa.debian.org/ruby-team/ruby-em-synchrony
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-entypo-rails
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-enumerize
+    - [Build-Depends] ruby-rails
+    - [Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-escape-utils
+    - [Build-Depends, Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-exception-notification
+    - [Depends] ruby-actionmailer
+    - [Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-excon
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-factory-bot
+    - [Build-Depends] ruby-activerecord
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-factory-bot-rails
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-fast-gettext
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-flipper
+    - [Build-Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-flot-rails
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-font-awesome-rails
+    - [Depends] ruby-activesupport
+    - [Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-generator-spec
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-gettext-i18n-rails
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-gettext-i18n-rails-js
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-globalid
+    - [Build-Depends] rails
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Recommends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-gon
+    - [Build-Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-grape
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-grape-entity
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-grape-path-helpers
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-haml
+    - [Build-Depends, Suggests] rails
+- https://salsa.debian.org/ruby-team/ruby-hamlit
+    - [Build-Depends] ruby-actionpack
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-haml-magic-translations
+    - [Build-Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-haml-rails
+    - [Build-Depends] rails
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-hashie
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-hashie-forbidden-attributes
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-health-check
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-html-pipeline
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-http-accept-language
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Suggests] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-i18n
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-i18n-inflector-rails
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-ice-cube
+    - [Build-Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-jbuilder
+    - [Build-Depends] rails
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-jira
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-joiner
+    - [Build-Depends] ruby-rails
+    - [Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-jquery-atwho-rails
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-jquery-datatables-rails
+    - [Depends] ruby-actionpack
+    - [Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-jquery-rails
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-jquery-scrollto-rails
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-jquery-ui-rails
+    - [Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-js-image-paths
+    - [Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-json-jwt
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-js-routes
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-kaminari
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Depends] ruby-actionview
+    - [Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-leaflet-rails
+    - [Build-Depends] ruby-actionpack
+    - [Build-Depends] ruby-activesupport
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-lograge
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-mail-gpg
+    - [Build-Depends] ruby-actionmailer
+- https://salsa.debian.org/ruby-team/ruby-markerb
+    - [Build-Depends] ruby-actionmailer
+    - [Build-Depends] ruby-activesupport
+    - [Build-Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-messagebus-api
+    - [Build-Depends] ruby-actionmailer
+- https://salsa.debian.org/ruby-team/ruby-mobile-fu
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-model-tokenizer
+    - [Build-Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-momentjs-rails
+    - [Build-Depends] ruby-actionmailer
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-moneta
+    - [Suggests] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-oj
+    - [Suggests] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-omniauth-crowd
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-openid-connect
+    - [Build-Depends, Depends] ruby-activemodel
+- https://salsa.debian.org/ruby-team/ruby-origin
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-parallel
+    - [Build-Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-paranoia
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-peek
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-premailer-rails
+    - [Build-Depends, Depends] ruby-actionmailer
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-pundit
+    - [Build-Depends] ruby-actionpack
+    - [Build-Depends] ruby-activemodel
+    - [Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-rabl
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-rabl-rails
+    - [Build-Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-rack-google-analytics
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-rack-oauth2
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-rails-deprecated-sanitizer
+    - [Build-Depends] ruby-actionview
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-rails-dom-testing
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-rails-html-sanitizer
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-rails-i18n
+    - [Build-Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-rails-observers
+    - [Build-Depends, Depends] ruby-activemodel
+- https://salsa.debian.org/ruby-team/ruby-rails-timeago
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-rails-tokeninput
+    - [Depends] ruby-rails
+    - [Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-rbpdf
+    - [Build-Depends] ruby-actionview
+- https://salsa.debian.org/ruby-team/ruby-redis-actionpack
+    - [Build-Depends, Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-redis-activesupport
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-request-store
+    - [Suggests] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-responders
+    - [Build-Depends] rails
+    - [Build-Depends, Depends] ruby-railties
+    - [Build-Depends] ruby-actionpack
+- https://salsa.debian.org/ruby-team/ruby-roadie-rails
+    - [Build-Depends] rails
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-roxml
+    - [Build-Depends] ruby-activerecord
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-rqrcode-rails3
+    - [Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-rspec-collection-matchers
+    - [Build-Depends] ruby-activemodel
+- https://salsa.debian.org/ruby-team/ruby-rspec-rails
+    - [Build-Depends] rails
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-sass-rails
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-seamless-database-pool
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-seed-fu
+    - [Build-Depends, Depends] ruby-activerecord
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-sentry-raven
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-sequel
+    - [Build-Depends] ruby-activemodel
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-sequenced
+    - [Build-Depends, Depends] ruby-activerecord
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-shoulda-matchers
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-sidekiq
+    - [Build-Depends] ruby-actionmailer
+    - [Build-Depends] ruby-activerecord
+    - [Build-Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-simple-captcha2
+    - [Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-snorlax
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-spring
+    - [Build-Depends] rails
+- https://salsa.debian.org/ruby-team/ruby-spring-watcher-listen
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-sprockets-rails
+    - [Build-Depends, Depends] ruby-actionpack
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-state-machines-activemodel
+    - [Build-Depends, Depends] ruby-activemodel
+- https://salsa.debian.org/ruby-team/ruby-state-machines-activerecord
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-stringex
+    - [Build-Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-swd
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-task-list
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-thinking-sphinx
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-timecop
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-treetop
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-validate-email
+    - [Build-Depends, Depends] ruby-activemodel
+    - [Build-Depends] ruby-activerecord
+- https://salsa.debian.org/ruby-team/ruby-validates-hostname
+    - [Build-Depends, Depends] ruby-activerecord
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/ruby-validate-url
+    - [Build-Depends, Depends] ruby-activemodel
+- https://salsa.debian.org/ruby-team/ruby-versionist
+    - [Build-Depends, Depends] ruby-activesupport
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-voight-kampff
+    - [Build-Depends] rails
+- https://salsa.debian.org/ruby-team/ruby-web-console
+    - [Build-Depends, Depends] ruby-activemodel
+    - [Build-Depends, Depends] ruby-actionview
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-webfinger
+    - [Build-Depends, Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-webpack-rails
+    - [Build-Depends, Depends] ruby-railties
+- https://salsa.debian.org/ruby-team/ruby-wikicloth
+    - [Build-Depends] ruby-activesupport
+- https://salsa.debian.org/ruby-team/ruby-yaml-db
+    - [Build-Depends, Depends] ruby-rails
+- https://salsa.debian.org/ruby-team/schleuder
+    - [Build-Depends, Depends] ruby-activerecord
+- https://salsa.debian.org/multimedia-team/sonic-pi
+    - [Build-Depends, Depends] ruby-activesupport

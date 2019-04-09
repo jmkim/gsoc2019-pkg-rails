@@ -1,0 +1,110 @@
+# Appendix III: Breaking changes on Rails 6
+- actioncable
+    - https://github.com/rails/rails/blob/master/actioncable/CHANGELOG.md
+    - npm package renamed from `actioncable` to `@rails/actioncable`.
+    - Configuration of the `WebSocket` adapter and `logger` adapter have been moved from properties of `ActionCable` to properties of `ActionCable.adapters`.
+    - The `ActionCable.startDebugging()` and `ActionCable.stopDebugging()` methods have been removed and replaced with the property `ActionCable.logger.enabled`.
+- actionmailbox
+    - https://github.com/rails/rails/blob/master/actionmailbox/CHANGELOG.md
+    - (new module introduced from 6.0.0)
+- actionmailer
+    - https://github.com/rails/rails/blob/master/actionmailer/CHANGELOG.md
+    - Deprecate `ActionMailer::Base.receive` in favor of `actionmailbox`.
+- actionpack
+    - https://github.com/rails/rails/blob/master/actionpack/CHANGELOG.md
+    - Remove deprecated `fragment_cache_key` helper in favor of `combined_fragment_cache_key`.
+    - Remove deprecated methods in `ActionDispatch::TestResponse`.
+      `#success?`, `missing?` and `error?` were deprecated in Rails 5.2 in favor of `#successful?`, `not_found?` and `server_error?`.
+    - Deprecate `ActionDispatch::Http::ParameterFilter` in favor of `ActiveSupport::ParameterFilter`.
+    - Encode Content-Disposition filenames on `send_data` and `send_file`.
+        - Previously, `send_data 'data', filename: "\u{3042}.txt"` sends `"filename=\"\u{3042}.txt\""`.
+        - Now it follows RFC 2231 and RFC 5987 and sends `"filename=\"%3F.txt\"; filename*=UTF-8''%E3%81%82.txt"`.
+    - Controller level `force_ssl` has been deprecated in favor of `config.force_ssl`.
+- actiontext
+    - https://github.com/rails/rails/blob/master/actiontext/CHANGELOG.md
+    - (new module introduced from 6.0.0)
+- actionview
+    - https://github.com/rails/rails/blob/master/actionview/CHANGELOG.md
+    - npm package renamed from `rails-ujs` to `@rails/ujs`.
+    - Remove deprecated `image_alt` helper.
+    - Deprecate calling private model methods from view helpers.
+    - Remove `ActionView::Helpers::RecordTagHelper`.
+    - Disable `ActionView::Template` finalizers in test environment.
+    - Don't enforce UTF-8 by default.
+    - Change translation key of `submit_tag` from `module_name_class_name` to `module_name/class_name`.
+- activejob
+    - https://github.com/rails/rails/blob/master/activejob/CHANGELOG.md
+    - Return false instead of the job instance when `enqueue` is aborted.
+        - This will be the behavior in Rails 6.1 but it can be controlled now with `config.active_job.return_false_on_aborted_enqueue`.
+    - Remove support for Qu gem.
+- activemodel
+    - https://github.com/rails/rails/blob/master/activemodel/CHANGELOG.md
+    - Fix date value when casting a multiparameter date hash to not convert from Gregorian date to Julian date.
+    - Fix year value when casting a multiparameter time hash.
+    - Fix `ActiveModel::Serializers::JSON#as_json` method for timestamps.
+- activerecord
+    - https://github.com/rails/rails/blob/master/activerecord/CHANGELOG.md
+    - Fix query attribute method on user-defined attribute to be aware of typecasted value.
+    - Deprecate mismatched collation comparison for uniqueness validator.
+        - Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the case insensitive column, pass case_sensitive: true option explicitly to the uniqueness validator.
+    - Don't allow `where` with non numeric string matches to 0 values.
+    - Don't allow `where` with invalid value matches to nil values.
+    - Deprecate using class level querying methods if the receiver scope regarded as leaked. Use `klass.unscoped` to avoid the leaking scope.
+    - Remove deprecated `#set_state` from the transaction object.
+    - Remove deprecated `#supports_statement_cache?` from the database adapters.
+    - Remove deprecated `#insert_fixtures` from the database adapters.
+    - Remove deprecated `ActiveRecord::ConnectionAdapters::SQLite3Adapter#valid_alter_table_type?`.
+    - Do not allow passing the column name to `sum` when a block is passed.
+    - Do not allow passing the column name to `count` when a block is passed.
+    - Deprecate `config.activerecord.sqlite3.represent_boolean_as_integer`.
+    - Change `SQLite3Adapter` to always represent boolean values as integers.
+    - Remove ability to specify a timestamp name for `#cache_key`.
+    - Remove deprecated `ActiveRecord::Migrator.migrations_path=`.
+    - Remove deprecated `expand_hash_conditions_for_aggregates`.
+    - Deprecate passing `migrations_paths` to `connection.assume_migrated_upto_version`.
+    - Raise an error instead of scanning the filesystem root when `fixture_path` is blank.
+    - Deprecate `ActiveRecord::Result#to_hash` in favor of `ActiveRecord::Result#to_a`.
+    - Deprecate `column_name_length`, `table_name_length`, `columns_per_table`, `indexes_per_table`, `columns_per_multicolumn_index`, `sql_query_length`, and `joins_per_query` methods in `DatabaseLimits`.
+    - Deprecate `update_attributes/!` in favor of `update/!`.
+- activestorage
+    - https://github.com/rails/rails/blob/master/activestorage/CHANGELOG.md
+    - npm package renamed from `activestorage` to `@rails/activestorage`.
+    - Replace `config.active_storage.queue` to `config.active_storage.queues.analysis` and `config.active_storage.queues.purge`.
+    - Active Storage error classes now inherit from `ActiveStorage::Error` instead of `StandardError`.
+- activesupport
+    - https://github.com/rails/rails/blob/master/activesupport/CHANGELOG.md
+    - Fix `Time#advance` to work with dates before 1001-03-07.
+    - Remove the `Kernel#` override that suppresses ENOENT and accidentally returns nil on Unix systems.
+    - Remove deprecated `Module#reachable?` method.
+    - Remove deprecated `#acronym_regex` method from `Inflections`.
+    - Deprecate `ActiveSupport::Multibyte::Unicode#pack_graphemes(array)` in favor of `array.flatten.pack("U*")`.
+    - Deprecate `ActiveSuppport::Multibyte::Unicode#unpack_graphemes(string)` in favor of `string.scan(/\X/).map(&:codepoints)`.
+    - Deprecate `ActiveSupport::Multibyte::Chars.consumes?` in favor of `String#is_utf8?`.
+    - Deprecate `ActiveSupport::Multibyte::Unicode#normalize` and `ActiveSuppport::Multibyte::Chars#normalize` in favor of `String#unicode_normalize`.
+    - Deprecate `ActiveSupport::Multibyte::Unicode#downcase/upcase/swapcase` in favor of `String#downcase/upcase/swapcase`.
+    - Rename `Module#parent`, `Module#parents`, and `Module#parent_name` to `module_parent`, `module_parents`, and `module_parent_name`.
+    - Deprecate the use of `LoggerSilence` in favor of `ActiveSupport::LoggerSilence`.
+    - Deprecate using negative limits in `String#first` and `String#last`.
+- railties
+    - https://github.com/rails/rails/blob/master/railties/CHANGELOG.md
+    - The `connection` option of `rails dbconsole` command is deprecated in favor of `database` option.
+    - Replace `chromedriver-helper` gem with `webdrivers` in default Gemfile.
+    - Applications running in `:zeitwerk` mode that use `bootsnap` need to upgrade `bootsnap` to at least 1.4.2.
+    - Remove deprecated `after_bundle` helper inside plugins template
+    - Remove deprecated support to old `config.ru` that use the application class as argument of `run`.
+    - Remove deprecated `environment` argument from the rails commands.
+    - Remove deprecated `capify!`.
+    - Remove deprecated `config.secret_token`.
+    - Remove `app/assets` and `app/javascript` from `eager_load_paths` and `autoload_paths`.
+    - Deprecate `rake routes` in favor of `rails routes`.
+    - Deprecate `rake initializers` in favor of `rails initializers`.
+    - Deprecate `rake dev:cache` in favor of `rails dev:cache`.
+    - Deprecate `rails notes` subcommands in favor of passing an `annotations` argument to `rails notes`.
+    - `rails notes:custom ANNOTATION=custom` is deprecated in favor of using `rails notes -a custom`.
+    - `rails notes:optimize` is deprecated in favor of using `rails notes -a OPTIMIZE`.
+    - `rails notes:todo` is deprecated in favor of using `rails notes -a TODO`.
+    - `rails notes:fixme` is deprecated in favor of using `rails notes -a FIXME`.
+    - Deprecate `SOURCE_ANNOTATION_DIRECTORIES` environment variable used by `rails notes` through `Rails::SourceAnnotationExtractor::Annotation` in favor of using `config.annotations.register_directories`.
+    - Deprecate `rake notes` in favor of `rails notes`.
+    - Deprecate support for using the `HOST` environment variable to specify the server IP. The `BINDING` environment variable should be used instead.
+    - Deprecate passing Rack server name as a regular argument to `rails server`.

@@ -1,0 +1,171 @@
+# Appendix I: Measured Rails dependencies in Debian
+- New package needed:
+    - activerecord-jdbc-adapter (52.1-java)
+    - activerecord-jdbcmysql-adapter (52.1-java)
+    - activerecord-jdbcpostgresql-adapter (52.1-java)
+    - activerecord-jdbcsqlite3-adapter (52.1-java)
+    - backburner
+    - concurrent-ruby (1.1.4)
+    - curses (1.0.4)
+    - dante (0.2.0)
+    - digest-crc (0.4.1)
+    - image-processing (1.7.1)
+    - jaro_winkler (1.5.2-java)
+    - jmespath (1.4.0)
+    - kindlerb (1.2.0)
+    - mini_portile2 (2.4.0)
+    - minitest-bisect (1.4.0)
+    - minitest-retry (0.1.9)
+    - minitest-server (1.0.5)
+    - net_http_ssl_fix (0.0.10)
+    - path_expander (1.0.3)
+    - puma (3.12.1)
+    - que (0.14.3)
+    - qunit-selenium (0.0.4)
+    - railties (>=4.2)
+    - rb-fsevent (0.10.3)
+    - rdoc (6.0.4)
+    - resque (1.27.4)
+    - resque-scheduler (4.3.1)
+    - ruby_dep (1.5.0)
+    - ruby-vips (>=2.0.13,<3)
+    - sass (3.7.2)
+    - sass-listen (4.0.0)
+    - serverengine (2.0.7)
+    - sigdump (0.2.4)
+    - sneakers (2.11.0)
+    - stackprof (0.2.12)
+    - sucker_punch (2.1.1)
+    - w3c_validators (1.3.4)
+    - wdm (0.1.1)
+    - webdrivers (3.7.0)
+    - webpacker (4.0.2)
+    - zeitwerk (1.4.3)
+
+- Transition needed:
+    - https://salsa.debian.org/ruby-team/ruby-ast (2.4.0 needed, 2.3.0 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-benchmark-ips (2.7.2 needed, 1.2.0 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-bunny (2.13.0 needed, 2.9.2 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-daemons (1.2.6 needed, 1.1.9 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-erubi (1.8.0 needed, 1.7.1 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-eventmachine (1.2.7 needed, 1.0.7 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-execjs (2.7.0 needed, 2.6.7 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-ffi (1.10.0 needed, 1.9.10 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-hashdiff (0.2.3 needed, 0.3.7 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-i18n (1.6.0 needed, 1.5.3 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-mime-types-data (3.2018.0812 needed, 3.2015.1120 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-msgpack (1.2.9 needed, 1.1.0 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-multi-json (1.13.1 needed, 1.12.1 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-mustache (1.1.0 needed, 1.0.2 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-os (1.0.0 needed, 0.9.6 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-parallel (1.13.0 needed, 0.12.1 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-rack-cache (1.8.0 needed, 1.2 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-rack-protection (2.0.4 needed, 1.5.3 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-rack-test (1.1.0 needed, 0.7.0 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-rb-inotify (1.10.0 needed, 0.9.10 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-redis (4.0.3 needed, 3.3.5 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-regexp-parser (1.3.0 needed, 1.2.0 in Debian)
+    - https://salsa.debian.org/ruby-team/rubocop (0.66.0 needed, 0.52.1 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-progressbar (0.10.0 needed, 0.9.0 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-rufus-scheduler (3.5.2 needed, 3.4.2 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-sdoc (1.0.0 needed, 0.4.1 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-selenium-webdriver (3.141.0 needed, 3.12.0 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-thor (0.20.3 needed, 0.19.4 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-turbolinks (5.2.0 needed, 5.1.1 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-turbolinks-source (5.2.0 needed, 5.1.0 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-tzinfo-data (1.2018.7 needed, 1.2016.6 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-unicode-display-width (1.5.0 needed, 1.1.1 in Debian)
+    - https://salsa.debian.org/ruby-team/ruby-websocket-driver (0.7.0 needed, 0.6.3 in Debian)
+
+- No change needed:
+    - https://salsa.debian.org/ruby-team/ruby-addressable
+    - https://salsa.debian.org/ruby-team/ruby-amq-protocol
+    - https://salsa.debian.org/ruby-team/ruby-beaneater
+    - https://salsa.debian.org/ruby-team/ruby-blade
+    - https://salsa.debian.org/ruby-team/ruby-blade-qunit-adapter
+    - https://salsa.debian.org/ruby-team/ruby-blade-sauce-labs-plugin
+    - https://salsa.debian.org/ruby-team/ruby-builder
+    - https://salsa.debian.org/ruby-team/ruby-byebug
+    - https://salsa.debian.org/ruby-team/ruby-capybara
+    - https://salsa.debian.org/ruby-team/ruby-childprocess
+    - https://salsa.debian.org/ruby-team/ruby-coffee-script
+    - https://salsa.debian.org/ruby-team/ruby-connection-pool
+    - https://salsa.debian.org/ruby-team/ruby-cookiejar
+    - https://salsa.debian.org/ruby-team/ruby-crack
+    - https://salsa.debian.org/ruby-team/ruby-crass
+    - https://salsa.debian.org/ruby-team/ruby-dalli
+    - https://salsa.debian.org/ruby-team/ruby-declarative
+    - https://salsa.debian.org/ruby-team/ruby-declarative-option
+    - https://salsa.debian.org/ruby-team/ruby-delayed-job
+    - https://salsa.debian.org/ruby-team/ruby-delayed-job-active-record
+    - https://salsa.debian.org/ruby-team/ruby-em-http-request
+    - https://salsa.debian.org/ruby-team/ruby-et-orbi
+    - https://salsa.debian.org/ruby-team/ruby-faraday
+    - https://salsa.debian.org/ruby-team/ruby-faraday-middleware
+    - https://salsa.debian.org/ruby-team/ruby-faye
+    - https://salsa.debian.org/ruby-team/ruby-faye-websocket
+    - https://salsa.debian.org/ruby-team/ruby-fugit
+    - https://salsa.debian.org/ruby-team/ruby-globalid
+    - https://salsa.debian.org/ruby-team/ruby-hiredis
+    - https://salsa.debian.org/ruby-team/ruby-httpclient
+    - https://salsa.debian.org/ruby-team/ruby-http-parser.rb
+    - https://salsa.debian.org/ruby-team/ruby-jar-dependencies
+    - https://salsa.debian.org/ruby-team/ruby-json
+    - https://salsa.debian.org/ruby-team/ruby-jwt
+    - https://salsa.debian.org/ruby-team/ruby-libxml
+    - https://salsa.debian.org/ruby-team/ruby-listen
+    - https://salsa.debian.org/ruby-team/ruby-loofah
+    - https://salsa.debian.org/ruby-team/ruby-mail
+    - https://salsa.debian.org/ruby-team/ruby-marcel
+    - https://salsa.debian.org/ruby-team/ruby-memoist
+    - https://salsa.debian.org/ruby-team/ruby-method-source
+    - https://salsa.debian.org/ruby-team/ruby-mimemagic
+    - https://salsa.debian.org/ruby-team/ruby-mime-types
+    - https://salsa.debian.org/ruby-team/ruby-mini-magick
+    - https://salsa.debian.org/ruby-team/ruby-mini-mime
+    - https://salsa.debian.org/ruby-team/ruby-minitest
+    - https://salsa.debian.org/ruby-team/ruby-mono-logger
+    - https://salsa.debian.org/ruby-team/ruby-multipart-post
+    - https://salsa.debian.org/ruby-team/ruby-mustermann
+    - https://salsa.debian.org/ruby-team/ruby-mysql2
+    - https://salsa.debian.org/ruby-team/ruby-nio4r
+    - https://salsa.debian.org/ruby-team/ruby-nokogiri
+    - https://salsa.debian.org/ruby-team/ruby-parser
+    - https://salsa.debian.org/ruby-team/ruby-pg
+    - https://salsa.debian.org/ruby-team/ruby-psych
+    - https://salsa.debian.org/ruby-team/ruby-public-suffix
+    - https://salsa.debian.org/ruby-team/ruby-raabro
+    - https://salsa.debian.org/ruby-team/racc
+    - https://salsa.debian.org/ruby-team/ruby-rack
+    - https://salsa.debian.org/ruby-team/ruby-rack-proxy
+    - https://salsa.debian.org/ruby-team/ruby-rails-dom-testing
+    - https://salsa.debian.org/ruby-team/ruby-rails-html-sanitizer
+    - https://salsa.debian.org/ruby-team/ruby-rainbow
+    - https://salsa.debian.org/ruby-team/rake
+    - https://salsa.debian.org/ruby-team/ruby-redcarpet
+    - https://salsa.debian.org/ruby-team/ruby-redis-namespace
+    - https://salsa.debian.org/ruby-team/ruby-representable
+    - https://salsa.debian.org/ruby-team/ruby-retriable
+    - https://salsa.debian.org/ruby-team/ruby-zip
+    - https://salsa.debian.org/ruby-team/ruby-safe-yaml
+    - https://salsa.debian.org/ruby-team/ruby-sass-rails
+    - https://salsa.debian.org/ruby-team/ruby-sequel
+    - https://salsa.debian.org/ruby-team/ruby-sidekiq
+    - https://salsa.debian.org/ruby-team/ruby-signet
+    - https://salsa.debian.org/ruby-team/ruby-sinatra
+    - https://salsa.debian.org/ruby-team/ruby-sprockets
+    - https://salsa.debian.org/ruby-team/ruby-sprockets-export
+    - https://salsa.debian.org/ruby-team/ruby-sprockets-rails
+    - https://salsa.debian.org/ruby-team/ruby-sqlite3
+    - https://salsa.debian.org/ruby-team/thin
+    - https://salsa.debian.org/ruby-team/ruby-thread-safe
+    - https://salsa.debian.org/ruby-team/ruby-tilt
+    - https://salsa.debian.org/ruby-team/ruby-tzinfo
+    - https://salsa.debian.org/ruby-team/ruby-uber
+    - https://salsa.debian.org/ruby-team/ruby-uglifier
+    - https://salsa.debian.org/ruby-team/ruby-useragent
+    - https://salsa.debian.org/ruby-team/ruby-vegas
+    - https://salsa.debian.org/ruby-team/ruby-webmock
+    - https://salsa.debian.org/ruby-team/ruby-websocket
+    - https://salsa.debian.org/ruby-team/ruby-websocket-extensions
+    - https://salsa.debian.org/ruby-team/ruby-xpath
