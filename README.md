@@ -116,7 +116,7 @@ This proposal proposes to upgrade Rails to 6.0.0 and change all Debian packages 
 ### Packaging bases
 
 #### Workflow diagram
-[img/figure-01.png](img/figure-01.png)
+![Rails 6 package transition workflow diagram](img/figure-01.png)
 
 #### Measured values
 1. In Debian, 169 packages dependent on Rails. [Appendix II]
