@@ -7,7 +7,7 @@ GSoC 2019 Proposal by Jongmin Kim
 ## Project information
 - Organisation: [Ruby](https://github.com/rubygsoc/rubygsoc/wiki)
 - Project idea: [Rails6 Package Transition in Debian](https://github.com/rubygsoc/rubygsoc/wiki/Rails6-Package-Transition-in-Debian)
-- Current status: Pending
+- Current status: [Student proposal submitted; under review](https://developers.google.com/open-source/gsoc/timeline)
 
 ## Download proposal
 - Final proposal PDF: [proposal-final.pdf](https://github.com/jmkim/gsoc2019-pkg-rails/blob/gsoc2019/proposal/proposal-final.pdf)
