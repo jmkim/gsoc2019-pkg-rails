@@ -367,14 +367,12 @@ This proposal proposes to upgrade Rails to 6.0.0 and change all Debian packages 
     - Ready for submit final work report
 
 ### Some notes regarding timeline
-
 1. Week 8~9: Have a plan for participating DebCamp19 and DebConf19 (Debian conference) from 12 July to 27 July. In this period, do sprint in Hacklab, in DebConf venue.
-
 1. A lot of packages should be done transition, so the timeline should be re-estimate occasionally during community bonding phase and coding phase.
 
 ### References
-[1] https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/
-[2] https://github.com/rails/rails
+- [1] https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/
+- [2] https://github.com/rails/rails
 
 <hr>
 
