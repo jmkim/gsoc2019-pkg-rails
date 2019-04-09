@@ -1,4 +1,4 @@
-# Appendix I: Measured Rails dependencies in Debian
+# [Appendix I] Measured data: Rails dependencies in Debian
 - New package needed:
     - activerecord-jdbc-adapter (52.1-java)
     - activerecord-jdbcmysql-adapter (52.1-java)

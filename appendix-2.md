@@ -1,4 +1,4 @@
-# Appendix II: Measured Rails reverse-dependencies in Debian
+# [Appendix II] Measured data: Rails reverse-dependencies in Debian
 - https://salsa.debian.org/ruby-team/camping
     - [Recommends] ruby-activerecord
 - https://salsa.debian.org/debian/coquelicot

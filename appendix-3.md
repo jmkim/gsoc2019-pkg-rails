@@ -1,4 +1,4 @@
-# Appendix III: Breaking changes on Rails 6
+# [Appendix III] Summarised data: Breaking changes on Rails 6
 - actioncable
     - https://github.com/rails/rails/blob/master/actioncable/CHANGELOG.md
     - npm package renamed from `actioncable` to `@rails/actioncable`.
