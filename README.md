@@ -2,7 +2,7 @@
 
 GSoC 2019 Proposal by Jongmin Kim
 
-**Upgrade Rails to 6.0.0 and patch all 169 Debian packages that dependent on Rails to be compatible with Rails 6.0.0.**
+**Upgrade Rails to 6.0.0 and patch all 169 Debian packages that depend on Rails to be compatible with Rails 6.0.0.**
 
 ## Project information
 - Project page: [A Rails 6 package transition in Debian](https://summerofcode.withgoogle.com/projects/#6363542624665600)
