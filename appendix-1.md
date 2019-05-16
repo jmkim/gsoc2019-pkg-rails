@@ -4,11 +4,13 @@
     - https://rubygems.org/gems/activerecord-jdbcmysql-adapter (52.1-java)
     - https://rubygems.org/gems/activerecord-jdbcpostgresql-adapter (52.1-java)
     - https://rubygems.org/gems/activerecord-jdbcsqlite3-adapter (52.1-java)
+    - https://github.com/aws/aws-sdk-ruby
     - https://rubygems.org/gems/backburner
     - https://rubygems.org/gems/concurrent-ruby (1.1.4)
     - https://rubygems.org/gems/curses (1.0.4)
     - https://rubygems.org/gems/dante (0.2.0)
     - https://rubygems.org/gems/digest-crc (0.4.1)
+    - https://rubygems.org/gems/google-cloud-storage (1.18.1)
     - https://rubygems.org/gems/image-processing (1.7.1)
     - https://rubygems.org/gems/jaro_winkler (1.5.2-java)
     - https://rubygems.org/gems/jmespath (1.4.0)
@@ -19,8 +21,10 @@
     - https://rubygems.org/gems/minitest-server (1.0.5)
     - https://rubygems.org/gems/net_http_ssl_fix (0.0.10)
     - https://rubygems.org/gems/path_expander (1.0.3)
+    - https://github.com/whitequark/parser (2.6.2.0)
     - https://rubygems.org/gems/puma (3.12.1)
     - https://rubygems.org/gems/que (0.14.3)
+    - https://github.com/QueueClassic/queue_classic
     - https://rubygems.org/gems/qunit-selenium (0.0.4)
     - https://rubygems.org/gems/rb-fsevent (0.10.3)
     - https://rubygems.org/gems/rdoc (6.0.4)
@@ -39,11 +43,14 @@
     - https://rubygems.org/gems/wdm (0.1.1)
     - https://rubygems.org/gems/webdrivers (3.7.0)
     - https://rubygems.org/gems/webpacker (4.0.2)
-    - https://rubygems.org/gems/zeitwerk (1.4.3)
+    - https://github.com/matthewd/websocket-client-simple/tree/close-race
+    - https://rubygems.org/gems/zeitwerk (2.1.4)
 
 - Transition needed:
+    - https://tracker.debian.org/pkg/ruby-addressable (2.6.0 needed, 2.5.2 in Debian)
     - https://tracker.debian.org/pkg/ruby-ast (2.4.0 needed, 2.3.0 in Debian)
     - https://tracker.debian.org/pkg/ruby-benchmark-ips (2.7.2 needed, 1.2.0 in Debian)
+    - https://tracker.debian.org/pkg/ruby-bootsnap (1.4.2 needed, 1.3.0 in Debian)
     - https://tracker.debian.org/pkg/ruby-bunny (2.13.0 needed, 2.9.2 in Debian)
     - https://tracker.debian.org/pkg/ruby-daemons (1.2.6 needed, 1.1.9 in Debian)
     - https://tracker.debian.org/pkg/ruby-erubi (1.8.0 needed, 1.7.1 in Debian)
@@ -52,7 +59,9 @@
     - https://tracker.debian.org/pkg/ruby-ffi (1.10.0 needed, 1.9.10 in Debian)
     - https://tracker.debian.org/pkg/ruby-hashdiff (0.2.3 needed, 0.3.7 in Debian)
     - https://tracker.debian.org/pkg/ruby-i18n (1.6.0 needed, 1.5.3 in Debian)
+    - https://tracker.debian.org/pkg/ruby-jar-dependencies (0.4.0 needed, 0.3.10 in Debian)
     - https://tracker.debian.org/pkg/ruby-mime-types-data (3.2018.0812 needed, 3.2015.1120 in Debian)
+    - https://tracker.debian.org/pkg/ruby-minitest-reporters (1.3.6 needed, 1.0.19 in Debian)
     - https://tracker.debian.org/pkg/ruby-msgpack (1.2.9 needed, 1.1.0 in Debian)
     - https://tracker.debian.org/pkg/ruby-multi-json (1.13.1 needed, 1.12.1 in Debian)
     - https://tracker.debian.org/pkg/ruby-mustache (1.1.0 needed, 1.0.2 in Debian)
@@ -64,21 +73,21 @@
     - https://tracker.debian.org/pkg/ruby-rb-inotify (1.10.0 needed, 0.9.10 in Debian)
     - https://tracker.debian.org/pkg/ruby-redis (4.0.3 needed, 3.3.5 in Debian)
     - https://tracker.debian.org/pkg/ruby-regexp-parser (1.3.0 needed, 1.2.0 in Debian)
-    - https://tracker.debian.org/pkg/rubocop (0.66.0 needed, 0.52.1 in Debian)
+    - https://tracker.debian.org/pkg/rubocop (0.67.2 needed, 0.52.1 in Debian)
     - https://tracker.debian.org/pkg/ruby-progressbar (0.10.0 needed, 0.9.0 in Debian)
     - https://tracker.debian.org/pkg/ruby-rufus-scheduler (3.5.2 needed, 3.4.2 in Debian)
     - https://tracker.debian.org/pkg/ruby-sdoc (1.0.0 needed, 0.4.1 in Debian)
-    - https://tracker.debian.org/pkg/ruby-selenium-webdriver (3.141.0 needed, 3.12.0 in Debian)
+    - https://tracker.debian.org/pkg/ruby-sqlite3 (1.4.0 needed, 1.3.13 in Debian)
     - https://tracker.debian.org/pkg/ruby-thor (0.20.3 needed, 0.19.4 in Debian)
     - https://tracker.debian.org/pkg/ruby-turbolinks (5.2.0 needed, 5.1.1 in Debian)
     - https://tracker.debian.org/pkg/ruby-turbolinks-source (5.2.0 needed, 5.1.0 in Debian)
     - https://tracker.debian.org/pkg/ruby-tzinfo-data (1.2018.7 needed, 1.2016.6 in Debian)
-    - https://tracker.debian.org/pkg/ruby-unicode-display-width (1.5.0 needed, 1.1.1 in Debian)
+    - https://tracker.debian.org/pkg/ruby-unicode-display-width (1.5.0 and <1.6.0 needed , 1.1.1 in Debian)
     - https://tracker.debian.org/pkg/ruby-websocket-driver (0.7.0 needed, 0.6.3 in Debian)
 
 - No change needed:
-    - https://tracker.debian.org/pkg/ruby-addressable
     - https://tracker.debian.org/pkg/ruby-amq-protocol
+    - https://tracker.debian.org/pkg/ruby-ansi
     - https://tracker.debian.org/pkg/ruby-beaneater
     - https://tracker.debian.org/pkg/ruby-blade
     - https://tracker.debian.org/pkg/ruby-blade-qunit-adapter
@@ -108,7 +117,6 @@
     - https://tracker.debian.org/pkg/ruby-hiredis
     - https://tracker.debian.org/pkg/ruby-httpclient
     - https://tracker.debian.org/pkg/ruby-http-parser.rb
-    - https://tracker.debian.org/pkg/ruby-jar-dependencies
     - https://tracker.debian.org/pkg/ruby-json
     - https://tracker.debian.org/pkg/ruby-jwt
     - https://tracker.debian.org/pkg/ruby-libxml
@@ -149,13 +157,13 @@
     - https://tracker.debian.org/pkg/ruby-safe-yaml
     - https://tracker.debian.org/pkg/ruby-sass-rails
     - https://tracker.debian.org/pkg/ruby-sequel
+    - https://tracker.debian.org/pkg/ruby-selenium-webdriver
     - https://tracker.debian.org/pkg/ruby-sidekiq
     - https://tracker.debian.org/pkg/ruby-signet
     - https://tracker.debian.org/pkg/ruby-sinatra
     - https://tracker.debian.org/pkg/ruby-sprockets
     - https://tracker.debian.org/pkg/ruby-sprockets-export
     - https://tracker.debian.org/pkg/ruby-sprockets-rails
-    - https://tracker.debian.org/pkg/ruby-sqlite3
     - https://tracker.debian.org/pkg/thin
     - https://tracker.debian.org/pkg/ruby-thread-safe
     - https://tracker.debian.org/pkg/ruby-tilt
