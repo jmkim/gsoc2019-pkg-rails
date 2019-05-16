@@ -43,129 +43,129 @@
     - zeitwerk (1.4.3)
 
 - Transition needed:
-    - https://salsa.debian.org/ruby-team/ruby-ast (2.4.0 needed, 2.3.0 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-benchmark-ips (2.7.2 needed, 1.2.0 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-bunny (2.13.0 needed, 2.9.2 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-daemons (1.2.6 needed, 1.1.9 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-erubi (1.8.0 needed, 1.7.1 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-eventmachine (1.2.7 needed, 1.0.7 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-execjs (2.7.0 needed, 2.6.7 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-ffi (1.10.0 needed, 1.9.10 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-hashdiff (0.2.3 needed, 0.3.7 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-i18n (1.6.0 needed, 1.5.3 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-mime-types-data (3.2018.0812 needed, 3.2015.1120 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-msgpack (1.2.9 needed, 1.1.0 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-multi-json (1.13.1 needed, 1.12.1 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-mustache (1.1.0 needed, 1.0.2 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-os (1.0.0 needed, 0.9.6 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-parallel (1.13.0 needed, 0.12.1 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-rack-cache (1.8.0 needed, 1.2 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-rack-protection (2.0.4 needed, 1.5.3 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-rack-test (1.1.0 needed, 0.7.0 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-rb-inotify (1.10.0 needed, 0.9.10 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-redis (4.0.3 needed, 3.3.5 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-regexp-parser (1.3.0 needed, 1.2.0 in Debian)
-    - https://salsa.debian.org/ruby-team/rubocop (0.66.0 needed, 0.52.1 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-progressbar (0.10.0 needed, 0.9.0 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-rufus-scheduler (3.5.2 needed, 3.4.2 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-sdoc (1.0.0 needed, 0.4.1 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-selenium-webdriver (3.141.0 needed, 3.12.0 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-thor (0.20.3 needed, 0.19.4 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-turbolinks (5.2.0 needed, 5.1.1 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-turbolinks-source (5.2.0 needed, 5.1.0 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-tzinfo-data (1.2018.7 needed, 1.2016.6 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-unicode-display-width (1.5.0 needed, 1.1.1 in Debian)
-    - https://salsa.debian.org/ruby-team/ruby-websocket-driver (0.7.0 needed, 0.6.3 in Debian)
+    - https://tracker.debian.org/pkg/ruby-ast (2.4.0 needed, 2.3.0 in Debian)
+    - https://tracker.debian.org/pkg/ruby-benchmark-ips (2.7.2 needed, 1.2.0 in Debian)
+    - https://tracker.debian.org/pkg/ruby-bunny (2.13.0 needed, 2.9.2 in Debian)
+    - https://tracker.debian.org/pkg/ruby-daemons (1.2.6 needed, 1.1.9 in Debian)
+    - https://tracker.debian.org/pkg/ruby-erubi (1.8.0 needed, 1.7.1 in Debian)
+    - https://tracker.debian.org/pkg/ruby-eventmachine (1.2.7 needed, 1.0.7 in Debian)
+    - https://tracker.debian.org/pkg/ruby-execjs (2.7.0 needed, 2.6.7 in Debian)
+    - https://tracker.debian.org/pkg/ruby-ffi (1.10.0 needed, 1.9.10 in Debian)
+    - https://tracker.debian.org/pkg/ruby-hashdiff (0.2.3 needed, 0.3.7 in Debian)
+    - https://tracker.debian.org/pkg/ruby-i18n (1.6.0 needed, 1.5.3 in Debian)
+    - https://tracker.debian.org/pkg/ruby-mime-types-data (3.2018.0812 needed, 3.2015.1120 in Debian)
+    - https://tracker.debian.org/pkg/ruby-msgpack (1.2.9 needed, 1.1.0 in Debian)
+    - https://tracker.debian.org/pkg/ruby-multi-json (1.13.1 needed, 1.12.1 in Debian)
+    - https://tracker.debian.org/pkg/ruby-mustache (1.1.0 needed, 1.0.2 in Debian)
+    - https://tracker.debian.org/pkg/ruby-os (1.0.0 needed, 0.9.6 in Debian)
+    - https://tracker.debian.org/pkg/ruby-parallel (1.13.0 needed, 0.12.1 in Debian)
+    - https://tracker.debian.org/pkg/ruby-rack-cache (1.8.0 needed, 1.2 in Debian)
+    - https://tracker.debian.org/pkg/ruby-rack-protection (2.0.4 needed, 1.5.3 in Debian)
+    - https://tracker.debian.org/pkg/ruby-rack-test (1.1.0 needed, 0.7.0 in Debian)
+    - https://tracker.debian.org/pkg/ruby-rb-inotify (1.10.0 needed, 0.9.10 in Debian)
+    - https://tracker.debian.org/pkg/ruby-redis (4.0.3 needed, 3.3.5 in Debian)
+    - https://tracker.debian.org/pkg/ruby-regexp-parser (1.3.0 needed, 1.2.0 in Debian)
+    - https://tracker.debian.org/pkg/rubocop (0.66.0 needed, 0.52.1 in Debian)
+    - https://tracker.debian.org/pkg/ruby-progressbar (0.10.0 needed, 0.9.0 in Debian)
+    - https://tracker.debian.org/pkg/ruby-rufus-scheduler (3.5.2 needed, 3.4.2 in Debian)
+    - https://tracker.debian.org/pkg/ruby-sdoc (1.0.0 needed, 0.4.1 in Debian)
+    - https://tracker.debian.org/pkg/ruby-selenium-webdriver (3.141.0 needed, 3.12.0 in Debian)
+    - https://tracker.debian.org/pkg/ruby-thor (0.20.3 needed, 0.19.4 in Debian)
+    - https://tracker.debian.org/pkg/ruby-turbolinks (5.2.0 needed, 5.1.1 in Debian)
+    - https://tracker.debian.org/pkg/ruby-turbolinks-source (5.2.0 needed, 5.1.0 in Debian)
+    - https://tracker.debian.org/pkg/ruby-tzinfo-data (1.2018.7 needed, 1.2016.6 in Debian)
+    - https://tracker.debian.org/pkg/ruby-unicode-display-width (1.5.0 needed, 1.1.1 in Debian)
+    - https://tracker.debian.org/pkg/ruby-websocket-driver (0.7.0 needed, 0.6.3 in Debian)
 
 - No change needed:
-    - https://salsa.debian.org/ruby-team/ruby-addressable
-    - https://salsa.debian.org/ruby-team/ruby-amq-protocol
-    - https://salsa.debian.org/ruby-team/ruby-beaneater
-    - https://salsa.debian.org/ruby-team/ruby-blade
-    - https://salsa.debian.org/ruby-team/ruby-blade-qunit-adapter
-    - https://salsa.debian.org/ruby-team/ruby-blade-sauce-labs-plugin
-    - https://salsa.debian.org/ruby-team/ruby-builder
-    - https://salsa.debian.org/ruby-team/ruby-byebug
-    - https://salsa.debian.org/ruby-team/ruby-capybara
-    - https://salsa.debian.org/ruby-team/ruby-childprocess
-    - https://salsa.debian.org/ruby-team/ruby-coffee-script
-    - https://salsa.debian.org/ruby-team/ruby-connection-pool
-    - https://salsa.debian.org/ruby-team/ruby-cookiejar
-    - https://salsa.debian.org/ruby-team/ruby-crack
-    - https://salsa.debian.org/ruby-team/ruby-crass
-    - https://salsa.debian.org/ruby-team/ruby-dalli
-    - https://salsa.debian.org/ruby-team/ruby-declarative
-    - https://salsa.debian.org/ruby-team/ruby-declarative-option
-    - https://salsa.debian.org/ruby-team/ruby-delayed-job
-    - https://salsa.debian.org/ruby-team/ruby-delayed-job-active-record
-    - https://salsa.debian.org/ruby-team/ruby-em-http-request
-    - https://salsa.debian.org/ruby-team/ruby-et-orbi
-    - https://salsa.debian.org/ruby-team/ruby-faraday
-    - https://salsa.debian.org/ruby-team/ruby-faraday-middleware
-    - https://salsa.debian.org/ruby-team/ruby-faye
-    - https://salsa.debian.org/ruby-team/ruby-faye-websocket
-    - https://salsa.debian.org/ruby-team/ruby-fugit
-    - https://salsa.debian.org/ruby-team/ruby-globalid
-    - https://salsa.debian.org/ruby-team/ruby-hiredis
-    - https://salsa.debian.org/ruby-team/ruby-httpclient
-    - https://salsa.debian.org/ruby-team/ruby-http-parser.rb
-    - https://salsa.debian.org/ruby-team/ruby-jar-dependencies
-    - https://salsa.debian.org/ruby-team/ruby-json
-    - https://salsa.debian.org/ruby-team/ruby-jwt
-    - https://salsa.debian.org/ruby-team/ruby-libxml
-    - https://salsa.debian.org/ruby-team/ruby-listen
-    - https://salsa.debian.org/ruby-team/ruby-loofah
-    - https://salsa.debian.org/ruby-team/ruby-mail
-    - https://salsa.debian.org/ruby-team/ruby-marcel
-    - https://salsa.debian.org/ruby-team/ruby-memoist
-    - https://salsa.debian.org/ruby-team/ruby-method-source
-    - https://salsa.debian.org/ruby-team/ruby-mimemagic
-    - https://salsa.debian.org/ruby-team/ruby-mime-types
-    - https://salsa.debian.org/ruby-team/ruby-mini-magick
-    - https://salsa.debian.org/ruby-team/ruby-mini-mime
-    - https://salsa.debian.org/ruby-team/ruby-minitest
-    - https://salsa.debian.org/ruby-team/ruby-mono-logger
-    - https://salsa.debian.org/ruby-team/ruby-multipart-post
-    - https://salsa.debian.org/ruby-team/ruby-mustermann
-    - https://salsa.debian.org/ruby-team/ruby-mysql2
-    - https://salsa.debian.org/ruby-team/ruby-nio4r
-    - https://salsa.debian.org/ruby-team/ruby-nokogiri
-    - https://salsa.debian.org/ruby-team/ruby-parser
-    - https://salsa.debian.org/ruby-team/ruby-pg
-    - https://salsa.debian.org/ruby-team/ruby-psych
-    - https://salsa.debian.org/ruby-team/ruby-public-suffix
-    - https://salsa.debian.org/ruby-team/ruby-raabro
-    - https://salsa.debian.org/ruby-team/racc
-    - https://salsa.debian.org/ruby-team/ruby-rack
-    - https://salsa.debian.org/ruby-team/ruby-rack-proxy
-    - https://salsa.debian.org/ruby-team/ruby-rails-dom-testing
-    - https://salsa.debian.org/ruby-team/ruby-rails-html-sanitizer
-    - https://salsa.debian.org/ruby-team/ruby-rainbow
-    - https://salsa.debian.org/ruby-team/rake
-    - https://salsa.debian.org/ruby-team/ruby-redcarpet
-    - https://salsa.debian.org/ruby-team/ruby-redis-namespace
-    - https://salsa.debian.org/ruby-team/ruby-representable
-    - https://salsa.debian.org/ruby-team/ruby-retriable
-    - https://salsa.debian.org/ruby-team/ruby-zip
-    - https://salsa.debian.org/ruby-team/ruby-safe-yaml
-    - https://salsa.debian.org/ruby-team/ruby-sass-rails
-    - https://salsa.debian.org/ruby-team/ruby-sequel
-    - https://salsa.debian.org/ruby-team/ruby-sidekiq
-    - https://salsa.debian.org/ruby-team/ruby-signet
-    - https://salsa.debian.org/ruby-team/ruby-sinatra
-    - https://salsa.debian.org/ruby-team/ruby-sprockets
-    - https://salsa.debian.org/ruby-team/ruby-sprockets-export
-    - https://salsa.debian.org/ruby-team/ruby-sprockets-rails
-    - https://salsa.debian.org/ruby-team/ruby-sqlite3
-    - https://salsa.debian.org/ruby-team/thin
-    - https://salsa.debian.org/ruby-team/ruby-thread-safe
-    - https://salsa.debian.org/ruby-team/ruby-tilt
-    - https://salsa.debian.org/ruby-team/ruby-tzinfo
-    - https://salsa.debian.org/ruby-team/ruby-uber
-    - https://salsa.debian.org/ruby-team/ruby-uglifier
-    - https://salsa.debian.org/ruby-team/ruby-useragent
-    - https://salsa.debian.org/ruby-team/ruby-vegas
-    - https://salsa.debian.org/ruby-team/ruby-webmock
-    - https://salsa.debian.org/ruby-team/ruby-websocket
-    - https://salsa.debian.org/ruby-team/ruby-websocket-extensions
-    - https://salsa.debian.org/ruby-team/ruby-xpath
+    - https://tracker.debian.org/pkg/ruby-addressable
+    - https://tracker.debian.org/pkg/ruby-amq-protocol
+    - https://tracker.debian.org/pkg/ruby-beaneater
+    - https://tracker.debian.org/pkg/ruby-blade
+    - https://tracker.debian.org/pkg/ruby-blade-qunit-adapter
+    - https://tracker.debian.org/pkg/ruby-blade-sauce-labs-plugin
+    - https://tracker.debian.org/pkg/ruby-builder
+    - https://tracker.debian.org/pkg/ruby-byebug
+    - https://tracker.debian.org/pkg/ruby-capybara
+    - https://tracker.debian.org/pkg/ruby-childprocess
+    - https://tracker.debian.org/pkg/ruby-coffee-script
+    - https://tracker.debian.org/pkg/ruby-connection-pool
+    - https://tracker.debian.org/pkg/ruby-cookiejar
+    - https://tracker.debian.org/pkg/ruby-crack
+    - https://tracker.debian.org/pkg/ruby-crass
+    - https://tracker.debian.org/pkg/ruby-dalli
+    - https://tracker.debian.org/pkg/ruby-declarative
+    - https://tracker.debian.org/pkg/ruby-declarative-option
+    - https://tracker.debian.org/pkg/ruby-delayed-job
+    - https://tracker.debian.org/pkg/ruby-delayed-job-active-record
+    - https://tracker.debian.org/pkg/ruby-em-http-request
+    - https://tracker.debian.org/pkg/ruby-et-orbi
+    - https://tracker.debian.org/pkg/ruby-faraday
+    - https://tracker.debian.org/pkg/ruby-faraday-middleware
+    - https://tracker.debian.org/pkg/ruby-faye
+    - https://tracker.debian.org/pkg/ruby-faye-websocket
+    - https://tracker.debian.org/pkg/ruby-fugit
+    - https://tracker.debian.org/pkg/ruby-globalid
+    - https://tracker.debian.org/pkg/ruby-hiredis
+    - https://tracker.debian.org/pkg/ruby-httpclient
+    - https://tracker.debian.org/pkg/ruby-http-parser.rb
+    - https://tracker.debian.org/pkg/ruby-jar-dependencies
+    - https://tracker.debian.org/pkg/ruby-json
+    - https://tracker.debian.org/pkg/ruby-jwt
+    - https://tracker.debian.org/pkg/ruby-libxml
+    - https://tracker.debian.org/pkg/ruby-listen
+    - https://tracker.debian.org/pkg/ruby-loofah
+    - https://tracker.debian.org/pkg/ruby-mail
+    - https://tracker.debian.org/pkg/ruby-marcel
+    - https://tracker.debian.org/pkg/ruby-memoist
+    - https://tracker.debian.org/pkg/ruby-method-source
+    - https://tracker.debian.org/pkg/ruby-mimemagic
+    - https://tracker.debian.org/pkg/ruby-mime-types
+    - https://tracker.debian.org/pkg/ruby-mini-magick
+    - https://tracker.debian.org/pkg/ruby-mini-mime
+    - https://tracker.debian.org/pkg/ruby-minitest
+    - https://tracker.debian.org/pkg/ruby-mono-logger
+    - https://tracker.debian.org/pkg/ruby-multipart-post
+    - https://tracker.debian.org/pkg/ruby-mustermann
+    - https://tracker.debian.org/pkg/ruby-mysql2
+    - https://tracker.debian.org/pkg/ruby-nio4r
+    - https://tracker.debian.org/pkg/ruby-nokogiri
+    - https://tracker.debian.org/pkg/ruby-parser
+    - https://tracker.debian.org/pkg/ruby-pg
+    - https://tracker.debian.org/pkg/ruby-psych
+    - https://tracker.debian.org/pkg/ruby-public-suffix
+    - https://tracker.debian.org/pkg/ruby-raabro
+    - https://tracker.debian.org/pkg/racc
+    - https://tracker.debian.org/pkg/ruby-rack
+    - https://tracker.debian.org/pkg/ruby-rack-proxy
+    - https://tracker.debian.org/pkg/ruby-rails-dom-testing
+    - https://tracker.debian.org/pkg/ruby-rails-html-sanitizer
+    - https://tracker.debian.org/pkg/ruby-rainbow
+    - https://tracker.debian.org/pkg/rake
+    - https://tracker.debian.org/pkg/ruby-redcarpet
+    - https://tracker.debian.org/pkg/ruby-redis-namespace
+    - https://tracker.debian.org/pkg/ruby-representable
+    - https://tracker.debian.org/pkg/ruby-retriable
+    - https://tracker.debian.org/pkg/ruby-zip
+    - https://tracker.debian.org/pkg/ruby-safe-yaml
+    - https://tracker.debian.org/pkg/ruby-sass-rails
+    - https://tracker.debian.org/pkg/ruby-sequel
+    - https://tracker.debian.org/pkg/ruby-sidekiq
+    - https://tracker.debian.org/pkg/ruby-signet
+    - https://tracker.debian.org/pkg/ruby-sinatra
+    - https://tracker.debian.org/pkg/ruby-sprockets
+    - https://tracker.debian.org/pkg/ruby-sprockets-export
+    - https://tracker.debian.org/pkg/ruby-sprockets-rails
+    - https://tracker.debian.org/pkg/ruby-sqlite3
+    - https://tracker.debian.org/pkg/thin
+    - https://tracker.debian.org/pkg/ruby-thread-safe
+    - https://tracker.debian.org/pkg/ruby-tilt
+    - https://tracker.debian.org/pkg/ruby-tzinfo
+    - https://tracker.debian.org/pkg/ruby-uber
+    - https://tracker.debian.org/pkg/ruby-uglifier
+    - https://tracker.debian.org/pkg/ruby-useragent
+    - https://tracker.debian.org/pkg/ruby-vegas
+    - https://tracker.debian.org/pkg/ruby-webmock
+    - https://tracker.debian.org/pkg/ruby-websocket
+    - https://tracker.debian.org/pkg/ruby-websocket-extensions
+    - https://tracker.debian.org/pkg/ruby-xpath
