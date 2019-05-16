@@ -22,7 +22,6 @@
     - https://rubygems.org/gems/puma (3.12.1)
     - https://rubygems.org/gems/que (0.14.3)
     - https://rubygems.org/gems/qunit-selenium (0.0.4)
-    - https://rubygems.org/gems/railties (>=4.2)
     - https://rubygems.org/gems/rb-fsevent (0.10.3)
     - https://rubygems.org/gems/rdoc (6.0.4)
     - https://rubygems.org/gems/resque (1.27.4)
