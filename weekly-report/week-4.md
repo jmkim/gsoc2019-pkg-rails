@@ -1,6 +1,6 @@
 ## Week 4
   * June 17 ~ June 23
-  * #rubygsoc weekly meeting: (planned on June 24, at https://bundler.slack.com/messages/C03TNNH59 )
+  * #rubygsoc weekly meeting: https://bundler.slack.com/archives/C03TNNH59/p1561384926123800
 
 ### Learned
   * UMEGAYA (DEP 12, aka. d/upstream/metadata)
