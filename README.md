@@ -9,6 +9,7 @@ GSoC 2019 report by Jongmin Kim
 
 ## Evaluations
   * [First evaluation report](./report-evaluation-1.md)
+  * [Final evaluation report](./report-evaluation-final.md)
 
 ## Weekly reports
   * [Community Bonding Week 1](./weekly-report/cbp-week-1.md)
